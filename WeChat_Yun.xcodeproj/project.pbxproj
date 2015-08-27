@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227F581A1B8FD1380005A032 /* QQ20150828-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F58171B8FD1380005A032 /* QQ20150828-3.png */; };
+		227F581B1B8FD1380005A032 /* QQ20150828-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F58181B8FD1380005A032 /* QQ20150828-4.png */; };
+		227F581C1B8FD1380005A032 /* QQ20150828-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 227F58191B8FD1380005A032 /* QQ20150828-5.png */; };
 		2293BD2C1B61AA3F0011E8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293BD2B1B61AA3F0011E8ED /* AppDelegate.swift */; };
 		2293BD2E1B61AA3F0011E8ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293BD2D1B61AA3F0011E8ED /* ViewController.swift */; };
 		2293BD311B61AA3F0011E8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2293BD2F1B61AA3F0011E8ED /* Main.storyboard */; };
 		2293BD331B61AA3F0011E8ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2293BD321B61AA3F0011E8ED /* Images.xcassets */; };
 		2293BD361B61AA3F0011E8ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2293BD341B61AA3F0011E8ED /* LaunchScreen.xib */; };
 		2293BD421B61AA3F0011E8ED /* WeChat_YunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293BD411B61AA3F0011E8ED /* WeChat_YunTests.swift */; };
+		2293BD4C1B61AE3A0011E8ED /* TxlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293BD4B1B61AE3A0011E8ED /* TxlViewController.swift */; };
+		2293BD4E1B61B52F0011E8ED /* FxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293BD4D1B61B52F0011E8ED /* FxViewController.swift */; };
+		2293BD501B61B5E10011E8ED /* IViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293BD4F1B61B5E10011E8ED /* IViewController.swift */; };
+		22976F5F1B67B18600E9B7E9 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22976F5E1B67B18600E9B7E9 /* MessageModel.swift */; };
+		229AAF8B1B6A52FC009CC69C /* ListMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229AAF8A1B6A52FC009CC69C /* ListMessageViewController.swift */; };
+		22B3DA4E1B6F923B00F55E62 /* MessageDetailedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3DA4D1B6F923B00F55E62 /* MessageDetailedController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		227F58171B8FD1380005A032 /* QQ20150828-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20150828-3.png"; sourceTree = "<group>"; };
+		227F58181B8FD1380005A032 /* QQ20150828-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20150828-4.png"; sourceTree = "<group>"; };
+		227F58191B8FD1380005A032 /* QQ20150828-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20150828-5.png"; sourceTree = "<group>"; };
 		2293BD261B61AA3F0011E8ED /* WeChat_Yun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat_Yun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2293BD2A1B61AA3F0011E8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2293BD2B1B61AA3F0011E8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +48,12 @@
 		2293BD3B1B61AA3F0011E8ED /* WeChat_YunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChat_YunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2293BD401B61AA3F0011E8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2293BD411B61AA3F0011E8ED /* WeChat_YunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChat_YunTests.swift; sourceTree = "<group>"; };
+		2293BD4B1B61AE3A0011E8ED /* TxlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxlViewController.swift; sourceTree = "<group>"; };
+		2293BD4D1B61B52F0011E8ED /* FxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxViewController.swift; sourceTree = "<group>"; };
+		2293BD4F1B61B5E10011E8ED /* IViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IViewController.swift; sourceTree = "<group>"; };
+		22976F5E1B67B18600E9B7E9 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		229AAF8A1B6A52FC009CC69C /* ListMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMessageViewController.swift; sourceTree = "<group>"; };
+		22B3DA4D1B6F923B00F55E62 /* MessageDetailedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailedController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +95,21 @@
 		2293BD281B61AA3F0011E8ED /* WeChat_Yun */ = {
 			isa = PBXGroup;
 			children = (
+				227F58171B8FD1380005A032 /* QQ20150828-3.png */,
+				227F58181B8FD1380005A032 /* QQ20150828-4.png */,
+				227F58191B8FD1380005A032 /* QQ20150828-5.png */,
 				2293BD2B1B61AA3F0011E8ED /* AppDelegate.swift */,
 				2293BD2D1B61AA3F0011E8ED /* ViewController.swift */,
 				2293BD2F1B61AA3F0011E8ED /* Main.storyboard */,
 				2293BD321B61AA3F0011E8ED /* Images.xcassets */,
 				2293BD341B61AA3F0011E8ED /* LaunchScreen.xib */,
 				2293BD291B61AA3F0011E8ED /* Supporting Files */,
+				2293BD4B1B61AE3A0011E8ED /* TxlViewController.swift */,
+				2293BD4D1B61B52F0011E8ED /* FxViewController.swift */,
+				2293BD4F1B61B5E10011E8ED /* IViewController.swift */,
+				22976F5E1B67B18600E9B7E9 /* MessageModel.swift */,
+				229AAF8A1B6A52FC009CC69C /* ListMessageViewController.swift */,
+				22B3DA4D1B6F923B00F55E62 /* MessageDetailedController.swift */,
 			);
 			path = WeChat_Yun;
 			sourceTree = "<group>";
@@ -193,8 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2293BD311B61AA3F0011E8ED /* Main.storyboard in Resources */,
+				227F581C1B8FD1380005A032 /* QQ20150828-5.png in Resources */,
 				2293BD361B61AA3F0011E8ED /* LaunchScreen.xib in Resources */,
 				2293BD331B61AA3F0011E8ED /* Images.xcassets in Resources */,
+				227F581A1B8FD1380005A032 /* QQ20150828-3.png in Resources */,
+				227F581B1B8FD1380005A032 /* QQ20150828-4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +243,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2293BD2E1B61AA3F0011E8ED /* ViewController.swift in Sources */,
+				2293BD501B61B5E10011E8ED /* IViewController.swift in Sources */,
 				2293BD2C1B61AA3F0011E8ED /* AppDelegate.swift in Sources */,
+				229AAF8B1B6A52FC009CC69C /* ListMessageViewController.swift in Sources */,
+				2293BD4E1B61B52F0011E8ED /* FxViewController.swift in Sources */,
+				22976F5F1B67B18600E9B7E9 /* MessageModel.swift in Sources */,
+				2293BD4C1B61AE3A0011E8ED /* TxlViewController.swift in Sources */,
+				22B3DA4E1B6F923B00F55E62 /* MessageDetailedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +445,7 @@
 				2293BD471B61AA3F0011E8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2293BD481B61AA3F0011E8ED /* Build configuration list for PBXNativeTarget "WeChat_YunTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				2293BD4A1B61AA3F0011E8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
