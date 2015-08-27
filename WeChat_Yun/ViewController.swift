@@ -92,7 +92,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITabBarDelegate,UI
             return search_messages.count
         }
         return messages.count
-    }
+    } 
     
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == UITableViewCellEditingStyle.Delete{
